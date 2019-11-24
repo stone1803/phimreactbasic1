@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MẪU PHIM BÀI TẬP REACT - LEDANGHONGPHUC</title>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <script defer
+            src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="https://bulma.io">
+                        <img src="./img/avatar.jpg"
+                            width="20" height="20">
+                    </a>
+                    <a role="button" class="navbar-burger burger"
+                        aria-label="menu"
+                        aria-expanded="true"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item">
+                            Trang Chủ
+                        </a>
+
+                        <a class="navbar-item">
+                            Lịch Chiếu
+                        </a>
+                        <a class="navbar-item">
+                            Cụm Rạp
+                        </a>
+                        <a class="navbar-item">
+                            Tin Tức
+                        </a>
+
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                Giảm Giá
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="navbar-right">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <a class="button is-primary">
+                                    <strong>Đăng Ký</strong>
+                                </a>
+                                <a class="button is-light">
+                                    Đăng Nhập
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- carosuel -->
+        <section class="hero is-medium is-primary is-bold">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-desktop">
+                        <div class="column"><div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-500X200">
+                                        <img
+                                            src="http://movie0706.cybersoft.edu.vn/hinhanh/insideout.jpg"
+                                            alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image is-48x48">
+                                                <img src="./img/avatar.jpg"
+                                                    alt="Placeholder image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4 has-text-dark">Inside
+                                                Out</p>
+                                            <p class="subtitle is-6
+                                                has-text-dark">Inside Out</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        After young Riley is uprooted from her
+                                        Midwest life and moved to San Francisco,
+                                        her emotions - Joy, Fear, Anger, Disgust
+                                        and Sadness - conflict on how best to
+                                        navigate a new city, house, and school
+                                        <a>@phimhay</a>.
+                                        <a href="#">#thiethiet</a> <a href="#">#hothot</a>
+                                        <br>
+                                        <time datetime="2016-1-1">11:09 PM - 1
+                                            Jan 2016</time>
+                                        <div class="buttons">
+                                            <button class="button is-primary">Xem
+                                                Chi Tiết</button>
+                                                <button class="button is-danger"
+                                                data-toggle="modal"
+                                                data-target="#exampleModal">Trailer</button>                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="column"><div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-500X200">
+                                        <img
+                                            src="http://movie0706.cybersoft.edu.vn/hinhanh/insideout.jpg"
+                                            alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image is-48x48">
+                                                <img src="./img/avatar.jpg"
+                                                    alt="Placeholder image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4 has-text-dark">Inside
+                                                Out</p>
+                                            <p class="subtitle is-6
+                                                has-text-dark">Inside Out</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        After young Riley is uprooted from her
+                                        Midwest life and moved to San Francisco,
+                                        her emotions - Joy, Fear, Anger, Disgust
+                                        and Sadness - conflict on how best to
+                                        navigate a new city, house, and school
+                                        <a>@phimhay</a>.
+                                        <a href="#">#thiethiet</a> <a href="#">#hothot</a>
+                                        <br>
+                                        <time datetime="2016-1-1">11:09 PM - 1
+                                            Jan 2016</time>
+                                        <div class="buttons">
+                                            <button class="button is-primary">Xem
+                                                Chi Tiết</button>
+                                                <button class="button is-danger"
+                                                data-toggle="modal"
+                                                data-target="#exampleModal">Trailer</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="column"><div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-500X200">
+                                        <img
+                                            src="http://movie0706.cybersoft.edu.vn/hinhanh/insideout.jpg"
+                                            alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image is-48x48">
+                                                <img src="./img/avatar.jpg"
+                                                    alt="Placeholder image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4 has-text-dark">Inside
+                                                Out</p>
+                                            <p class="subtitle is-6
+                                                has-text-dark">Inside Out</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        After young Riley is uprooted from her
+                                        Midwest life and moved to San Francisco,
+                                        her emotions - Joy, Fear, Anger, Disgust
+                                        and Sadness - conflict on how best to
+                                        navigate a new city, house, and school
+                                        <a>@phimhay</a>.
+                                        <a href="#">#thiethiet</a> <a href="#">#hothot</a>
+                                        <br>
+                                        <time datetime="2016-1-1">11:09 PM - 1
+                                            Jan 2016</time>
+                                        <div class="buttons">
+                                            <button class="button is-primary">Xem
+                                                Chi Tiết</button>
+                                                <button class="button is-danger"
+                                                data-toggle="modal"
+                                                data-target="#exampleModal">Trailer</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="column"><div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-500X200">
+                                        <img
+                                            src="http://movie0706.cybersoft.edu.vn/hinhanh/insideout.jpg"
+                                            alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image is-48x48">
+                                                <img src="./img/avatar.jpg"
+                                                    alt="Placeholder image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4 has-text-dark">Inside
+                                                Out</p>
+                                            <p class="subtitle is-6
+                                                has-text-dark">Inside Out</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        After young Riley is uprooted from her
+                                        Midwest life and moved to San Francisco,
+                                        her emotions - Joy, Fear, Anger, Disgust
+                                        and Sadness - conflict on how best to
+                                        navigate a new city, house, and school
+                                        <a>@phimhay</a>.
+                                        <a href="#">#thiethiet</a> <a href="#">#hothot</a>
+                                        <br>
+                                        <time datetime="2016-1-1">11:09 PM - 1
+                                            Jan 2016</time>
+                                        <div class="buttons">
+                                            <button class="button is-primary">Xem
+                                                Chi Tiết</button>
+                                            <button class="button is-danger"
+                                                data-toggle="modal"
+                                                data-target="#exampleModal">Trailer</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+
+                <div class="content has-text-centered">
+                    <p>
+                        <strong>Bulma</strong> by <a href="https://jgthms.com">PhucMap.Com</a>.
+                        The source code is licensed
+                        <a
+                            href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+                        The website content
+                        is licensed <a
+                            href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC
+                            BY NC SA 4.0</a>.
+                    </p>
+                </div>
+            </footer>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1"
+                role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Trailer
+                                Films</h5>
+                            <button type="button" class="close"
+                                data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="embed-responsive
+                                embed-responsive-16by9">
+                                <iframe class="embed-responsive-item"
+                                    src="https://www.youtube.com/embed/seMwpP0yeu4"
+                                    allowfullscreen></iframe>
+                            </div> </div>
+                        <div class="modal-footer">
+                            <button type="button" class="button is-danger"
+                                data-dismiss="modal">Đóng</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+// Get all "navbar-burger" elements
+var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Check if there are any navbar burgers
+if ($navbarBurgers.length > 0) {
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach(function ($el) {
+    $el.addEventListener('click', function () {
+
+      // Get the target from the "data-target" attribute
+      var target = $el.dataset.target;
+      var $target = document.getElementById(target);
+
+      // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+      $el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+}
+
+});
+    </script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+        <script>
+    bulmaCarousel.attach('#carousel-demo', {
+        slidesToScroll: 1,
+        slidesToShow: 4
+    });
+    </script>
+    </html>
